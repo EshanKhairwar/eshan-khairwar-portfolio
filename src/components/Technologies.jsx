@@ -3,7 +3,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { DiMysql, DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiExpress, SiMongodb, SiShadcnui } from "react-icons/si";
+import { SiExpress, SiMongodb, SiShadcnui, SiSocketdotio } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { motion, stagger } from "framer-motion";
 
@@ -62,7 +62,7 @@ const Technologies = () => {
         <motion.div initial="initial"
           animate="animate"
           variants={iconVariants(2)} className="p-4">
-          <DiRedis className="text-7xl text-red-600" />
+          <SiSocketdotio className="text-7xl text-white" />
         </motion.div>
         <motion.div  initial="initial"
           animate="animate"
