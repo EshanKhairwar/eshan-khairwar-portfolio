@@ -15,9 +15,9 @@ Let's create something amazing together!`;
 
 export const EXPERIENCES = [
   {
-    year: "July 2025 - Present",
-    role: "Full Stack Developer Intern",
-    company: "Simtrak Solutions",
+    year: "June 2024 - April 2026",
+    role: "Full Stack Developer",
+    company: "Crogies Global Pvt Ltd.",
     description: `Worked on routing, middleware, and database management for scalable applications.`,
     technologies: [
       "React",
