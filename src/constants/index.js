@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.webp";
 import mernStackPortfolio from "../assets/projects/mernStackPortfolio.png";
 import draxAI from "../assets/projects/draxAI.png";        // add screenshot
 import githubFinder from "../assets/projects/githubUserFinder.png"; // add screenshot
-
+import taskflowAI from "../assets/projects/taskflow-ai.png";
 export const HERO_CONTENT = `I am a passionate full stack developer with expertise in crafting robust and scalable web applications. With hands-on experience in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, Express.js, MongoDB, and PostgreSQL, I focus on delivering efficient and high-quality solutions. My goal is to leverage my skills to create innovative applications that provide seamless user experiences.`;
 
 export const ABOUT_TEXT = `Hello! I'm Eshan, a passionate MERN Stack Developer with a strong academic foundation, having completed my Integrated Master of Computer Application (IMCA) from IPS Academy Indore in 2024. My journey in web development has been driven by a keen interest in creating dynamic and user-friendly applications. With a solid grasp of the MERN stack—MongoDB, Express.js, React.js, and Node.js—I specialize in building full-stack applications that are both efficient and scalable.
@@ -110,6 +110,23 @@ export const PROJECTS = [
     technologies: ["React", "Tailwind CSS", "GitHub API"],
     demo: "https://eshankhairwar.github.io/github-user-finder/",
   },
+  {
+  title: "TaskFlow AI – AI-Powered Project Management Platform",
+  image: taskflowAI,
+  description:
+    "A full-stack project management platform built with the MERN stack. Features secure JWT authentication, project and task management, team collaboration, Kanban boards with drag-and-drop, task assignments, activity tracking, and real-time notifications. Designed with a responsive interface and a scalable REST API.",
+  technologies: [
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "JWT",
+    "Socket.IO",
+    "Tailwind CSS",
+  ],
+  demo: "https://taskflow-ai-six-theta.vercel.app",
+},
 ];
 
 export const CONTACT = {
